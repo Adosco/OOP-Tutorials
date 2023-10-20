@@ -19,5 +19,7 @@ public class Blacks extends Whites{
 
     public static void main(String[] args){
         Blacks blacks = new Blacks("black","white","black","Zambia",true);
+
+
     }
 }

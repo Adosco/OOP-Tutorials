@@ -48,7 +48,15 @@ public class Car {
         return color;
     }
 
-
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", chassisNumber='" + chassisNumber + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 
 
 }
