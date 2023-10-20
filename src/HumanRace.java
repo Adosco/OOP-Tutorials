@@ -4,9 +4,9 @@ public class HumanRace {
     //Instance variables or Field names
     private String hairColor;
     private String skinColor;
-    private String accent;
+    private String eyeColor;
     String dish;
-    String eyeColor;
+    String accent;
 
     public HumanRace(String hairColor,String eyeColor,String skinColor){
         this.hairColor = hairColor;
@@ -36,17 +36,38 @@ public class HumanRace {
         this.skinColor = skinColor;
     }
 
-    public String getAccent() {
-        return accent;
+    public String getEyeColor() {
+        return eyeColor;
     }
 
-    public void setAccent(String accent) {
-        this.accent = accent;
+    public void setEyeColor(String eyeColor) {
+        this.eyeColor = eyeColor;
     }
 
 
+    /*
     public static void main(String[] args){
         HumanRace blacks = new HumanRace();
-        System.out.println(blacks.accent);
+
+
+        HumanRace whites = new HumanRace("blonde","blue","white");
+
+        String hairColor = whites.getHairColor();
+        String eyeColor = whites.getEyeColor();
+        String skinColor = whites.getSkinColor();
+
+        String [] attributes = {hairColor,eyeColor,skinColor};
+
+
+
+        for(int i=0; i< attributes.length; i++){
+            System.out.println(attributes[i]);
+
+        }
+
+
+
+
     }
+     */
 }
